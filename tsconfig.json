@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "sourceMap": true,
-    "outDir": "dist/index.js"
+    "outDir": "dist/index.js",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules"
